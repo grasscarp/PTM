@@ -1,5 +1,5 @@
 # Pathogen Transmission Model
-PTM can help users visualize the transmission process of pathogens, basing on the inputted information, which should be a csv file containing the dates, locations, sequence types and labels of samples and neighbors (gNN) as well as the SNP between them.  
+PTM can help users visualize the transmission process of pathogens, basing on the inputted information, which should be a csv file containing the dates, locations, sequence types and labels of samples and genetically nearest neighbours (gNN) as well as the SNP between them.  
 
 ## Requirment
 PTM was written by Python3. While running, plotnine, pandas will be imported. PTM support Chinese, but you should download "SimHei" first if you don't have this font.  
