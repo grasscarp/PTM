@@ -5,14 +5,15 @@ PTM can help users visualize the transmission process of pathogens, basing on th
 PTM was written by Python3. While running, plotnine, pandas will be imported. PTM support Chinese, but you should download "SimHei" first if you don't have this font.  
 
 ## Usage
-**usage: PTM.py [-h] [--date DATE] [--same_st SAME_ST] [--same_ward SAME_WARD] [--thresh THRESH] path st**  
+usage:   
+PTM.py [-h] [--date DATE] [--same_st SAME_ST] [--same_ward SAME_WARD] [--thresh THRESH] path st  
 
-**positional arguments:**  
+positional arguments:  
 ```
   path                                  input path of a csv file  
   st                                    the sequence type of pathogens being showed  
 ```
-**optional arguments:**  
+optional arguments:  
 ```
   -h, --help                            show this help message and exit  
   --date DATE, -d DATE                  format of inputted date (default: %Y-%m-%d)  
