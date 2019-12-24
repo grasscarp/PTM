@@ -7,17 +7,19 @@ PTM was written by Python3. While running, plotnine, pandas will be imported. PT
 ## Usage
 **usage: PTM.py [-h] [--date DATE] [--same_st SAME_ST] [--same_ward SAME_WARD] [--thresh THRESH] path st**  
 
-**positional arguments:  
+**positional arguments:**  
+```
   path                                  input path of a csv file  
-  st                                    the sequence type of pathogens being showed**  
-
-**optional arguments:  
+  st                                    the sequence type of pathogens being showed  
+```
+**optional arguments:**  
+```
   -h, --help                            show this help message and exit  
   --date DATE, -d DATE                  format of inputted date (default: %Y-%m-%d)  
   --same_st SAME_ST, -s SAME_ST         only link pathogens of same sequence type (default: True)  
   --same_ward SAME_WARD, -w SAME_WARD   only link pathogens from same ward (default: False)  
-  --thresh THRESH, -t THRESH            the threshold of SNP number to link (default: 2)**  
-
+  --thresh THRESH, -t THRESH            the threshold of SNP number to link (default: 2)  
+```
 for example, run  
 ```
 C:\Users\cfish>python PTM.py E:\gNN.csv 307 -w True -t 10
