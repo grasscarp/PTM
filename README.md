@@ -39,7 +39,7 @@ The inputted csv should contain the following columns:
  
  ## Output
 The transmission model. Each point represents one sample, the linked points show the transmission cases, while the alone points show the sporadic cases.  
- ![image](https://github.com/grasscarp/Images/20191224181616.png
+ ![image](https://github.com/grasscarp/Images/20191224181616.png)
 
 If the number of locations (wards) > 60, they won't be showed totally on the gragh, and a list of wards-yvalues reflection will be printed out as well.  
- ![image](https://github.com/grasscarp/Images/20191224181703.png
+ ![image](https://github.com/grasscarp/Images/20191224181703.png)
